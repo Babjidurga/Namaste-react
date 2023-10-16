@@ -10,11 +10,12 @@ root.render(head) */
 /* This is the nested kind of structure 
 - If we want to give more number of children to the child div element we have to wrap them in an array 
 */
-
+import React from 'react'
+import  ReactDOM from 'react-dom/client'
 const head = React.createElement("div",{id:"parent"}, 
     [React.createElement("div",{id:"child1"},
     [React.createElement("h1",{id:"headele"},"This is the first head element")
-     ,React.createElement("h2",{id:"headeles"},"This is the second head element"),
+     ,React.createElement("h2",{id:"headeles"},"This is the second head element 🐱‍🏍🤦‍♀️🤦‍♂️"),
      React.createElement("h3",{id:"headelet"},"This is the third head element")]
     ), 
     React.createElement("div",{id:"child2"},
